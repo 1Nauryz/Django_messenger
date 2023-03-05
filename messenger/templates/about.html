@@ -1,0 +1,19 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'messenger/css/style.css' %}" type="text/css">
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 600px; flex-direction: column">
+        <code style="font-size: 20px">About Page</code>
+        <code style="font-size: 20px"><a href="{% url 'home' %}">Go to home page</a></code>
+    </div>
+</body>
+</html>
